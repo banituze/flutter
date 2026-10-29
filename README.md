@@ -204,7 +204,7 @@ Widget build(BuildContext context) {
   ###   Horizontal MainAxisAlignment
     Setting the main axis alignment to spaceEvenly divides the free horizontal space 
     evenly between, before, and after each image
-  ![alt text](https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/img1.PNG)
+  ![alt text](https://github.com/banituze/flutter/blob/main/screenshots/img1.PNG)
    ```dart
    Row(
   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -672,13 +672,13 @@ class FreeDemoState extends State<FreeDemo>
               children: <Widget>[
                 new UserAccountsDrawerHeader(
                     accountName: new Text(
-                      "Temidayo Adefioye",
+                      "Winebald Banituze",
                       style: new TextStyle(
                         fontWeight: FontWeight.w500, fontSize: 18.0
                       ),
                     ),
                     accountEmail: Text(
-                      "temidjoy@gmail.com",
+                      "info@winebald.tech",
                       style: new TextStyle(
                         fontSize: 18.0, fontWeight: FontWeight.w500
                       ),
