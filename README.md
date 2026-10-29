@@ -218,7 +218,7 @@ Widget build(BuildContext context) {
  ###   Vertical MainAxisAlignment
     Setting the main axis alignment to spaceEvenly divides the free vertical space 
     evenly between, before, and after each image
-  ![alt text](https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/img2.PNG)
+  ![alt text](https://github.com/banituze/flutter/blob/main/screenshots/img2.PNG)
    ```dart
    Column(
   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -234,7 +234,7 @@ Widget build(BuildContext context) {
     but if you want to pack the children closely together, set its mainAxisSize to MainAxisSize.min. 
     The following example uses this property to pack 3 buttons together.
     
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/Packing-widget.png" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/Packing-widget.png" width="280"/> 
    
    ```dart
         new Row(
@@ -275,7 +275,7 @@ Widget build(BuildContext context) {
     Do you want to add an elevation effect to your button? Use the snippet below
     Please avoid using elevated buttons on already-elevated content such as dialogs or cards.
     
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/Raised-button.png" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/Raised-button.png" width="280"/> 
    
    ```dart
          new Row(
@@ -303,7 +303,7 @@ Widget build(BuildContext context) {
   ###  Toggle Effect
     You can toggle the color of a raised button with few lines. The snippet below shows how you can achieve this.
     
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/toggle-button.png" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/toggle-button.png" width="280"/> 
    
    ```dart
    1. This button will need to be created in the build of a State of a StatefulWidget
@@ -328,7 +328,7 @@ Widget build(BuildContext context) {
   ###  Floating Action Button
     Creating a simple FAB using the code snippet below
     
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/fab-button.png" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/fab-button.png" width="280"/> 
    
    ```dart
     return new Scaffold(
@@ -361,7 +361,7 @@ Widget build(BuildContext context) {
 Creating bottom navigation in flutter is fatanstic, truth be told! I thought I'd write some complex code to make this happen. But see how I achieved it!
 
 #### Create a Bottom Navigation Bar without style
-<img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/bottom-bar-1.png" width="280"/> 
+<img src="https://github.com/banituze/flutter/blob/main/screenshots/bottom-bar-1.png" width="280"/> 
    
    ```dart
     return new Scaffold(
@@ -389,7 +389,7 @@ Creating bottom navigation in flutter is fatanstic, truth be told! I thought I'd
      );
  ```
  #### Create a Bottom Navigation Bar with custom style
-<img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/bottom-bar-2.png" width="280"/> 
+<img src="https://github.com/banituze/flutter/blob/main/screenshots/bottom-bar-2.png" width="280"/> 
    
    ```dart
     return new Scaffold(
@@ -525,7 +525,7 @@ class PlaceholderWidget extends StatelessWidget {
  }
  ```
 ##### Yaaaaaaaassssss!!!! We just did it! Take a look at the result
-<img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/bottom-tap-1.png" width="280"/> <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/bottom-tap-2.png" width="280"/> 
+<img src="https://github.com/banituze/flutter/blob/main/screenshots/bottom-tap-1.png" width="280"/> <img src="https://github.com/banituze/flutter/blob/main/screenshots/bottom-tap-2.png" width="280"/> 
  
  
 ## Tabs
@@ -550,7 +550,7 @@ To quickly implement tabs in your next project, follow these 3 steps:
   ### Step 2
     Now we can create 3 tabs for the TabController we initialized earlier using TabBar!
     
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/tabs.gif" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/tabs.gif" width="280"/> 
    
    ```dart
        return MaterialApp(
@@ -576,7 +576,7 @@ To quickly implement tabs in your next project, follow these 3 steps:
     Now that we have tabs, we’ll want to display content when a tab is selected. 
     For this demo, we’ll employ the TabBarView Widget.
     
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/tabs.gif" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/tabs.gif" width="280"/> 
    
    ```dart
             return MaterialApp(
@@ -610,7 +610,7 @@ To quickly implement tabs in your next project, follow these 3 steps:
 There are situations whereby there won't be insufficient space to support tabs. Drawers provide a handy alternative at this point.
 In Flutter, we can use the Drawer Widget in combination with a Scaffold to create a layout with a Material Design Drawer.
 
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/navigation-drawer.gif" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/navigation-drawer.gif" width="280"/> 
  
  The code snippet below shows you how to get this done quickly.
    
@@ -708,7 +708,7 @@ class DrawerItem {
 
 Mobile developers often require users to enter information into a text field. For example, you might be working on an app that requires your users to log in with an email address and password combination. Let's see how we can achieve this without necessarily importing a 3rd party library! Super cool right?
 
- <img src="https://github.com/Temidtech/Flutter-Cheat-Sheet/blob/master/screenshots/validation.gif" width="280"/> 
+ <img src="https://github.com/banituze/flutter/blob/main/screenshots/validation.gif" width="280"/> 
  
  You want something like this on your App? Here is how you can achieve this in few lines!
  
